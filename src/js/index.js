@@ -9,6 +9,7 @@ const loadMoreBtn = document.querySelector('.load-more');
 const lightbox = new SimpleLightbox('.gallery a');
 
 let currentPage = 1;
+let currentQuery = '';
 
 form.addEventListener('submit', onSubmit);
 
