@@ -22,6 +22,7 @@ function onSubmit(event) {
   if (searchQuery) {
     currentQuery = searchQuery;
     currentPage = 1;
+    pageSize = 40;
     receivedCount = 0;
     gallery.innerHTML = '';
     console.log(currentQuery);
